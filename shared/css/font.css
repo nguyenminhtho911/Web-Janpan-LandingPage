@@ -1,0 +1,11 @@
+/* Syntax: font format */
+@font-face {
+	font-family: "__FONT_NAME__";
+	src: url("../font/__FONT_FILE__.eot"); /* IE9+ Compat Modes */
+	src:
+		url("../font/__FONT_FILE__.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../font/__FONT_FILE__.woff2") format("woff2"), /* Super modern browsers */
+		url("../font/__FONT_FILE__.woff") format("woff"), /* Modern browsers */
+		url("../font/__FONT_FILE__.ttf")  format("truetype"), /* Safari, Android, iOS */
+		url("../font/__FONT_FILE__.svg#__FONT_NAME__") format("svg"); /* Legacy iOS */
+}
