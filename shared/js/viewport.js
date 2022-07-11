@@ -13,7 +13,7 @@ function updateMetaViewport(){
 	//	w = iOSviewportW;
 	//}
 	if(w > baseW){
-		viewportContent = "width="+1100+"px,user-scalable=no,shrink-to-fit=no";
+		viewportContent = "width=1100px,user-scalable=no,shrink-to-fit=no";
 	}else{
 		viewportContent = "width=device-width, shrink-to-fit=no";
 	}
