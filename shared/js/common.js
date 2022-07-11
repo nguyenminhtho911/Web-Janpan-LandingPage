@@ -1,14 +1,5 @@
 /*!
  * ScriptName: common.js
- * Version: 3.0.8
- *
- * FoodConnection
- * http://foodconnection.jp/
- * http://foodconnection.vn/
- *
- */
-
-
 
 /*
  * Catch errors
